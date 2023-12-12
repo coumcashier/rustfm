@@ -1,0 +1,24 @@
+[package]
+name = "rust-fm"
+version = "0.1.0"
+edition = "2021"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[executables]
+button = { path = "src/imgui_button_click/main.rs" }
+
+[dependencies]
+glutin = "0.29.1"
+image = "0.23"
+imgui-winit-support = "*"
+glow = "0.12.0"
+memoffset = "0.9"
+imgui = "*"
+imgui-glow-renderer = "*"
+log="*"
+env_logger="*"
+lazy_static="*"
+chrono="*"
+async-std="*"
+
